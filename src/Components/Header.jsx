@@ -6,7 +6,6 @@ const div = () => {
       <div className="flex justify-between">
         <img src="./assets/ghost-solid.svg" className="hover:animate-bounce  w-12 h-10" alt="logo"/>
        
-        <button className="bg-gradient-to-r from-blue-400 to-black text-xs text-white  px-3 py-2 border-radius rounded-3xl font-bold lg:mr-96 animate-pulse  ">Hosterr is hiring !!</button>                
         <ul className="hidden lg:flex justify-between font-lato items-center gap-6">
           <li><a href="#">Plans</a></li>
           <li><a href="#">Find-Domain</a></li>
