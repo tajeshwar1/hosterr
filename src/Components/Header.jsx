@@ -4,12 +4,14 @@ const div = () => {
   return (
     <div >
       <div className="flex justify-between">
-        <img src="./assets/ghost-solid.svg" className="hover:animate-bounce  w-12 h-10" alt="logo"/>
-       
-        <ul className="hidden lg:flex justify-between font-lato items-center gap-6">
-          <li><a href="#">Plans</a></li>
-          <li><a href="#">Find-Domain</a></li>
-          <li><a href="#">Why Hosterr</a></li>
+        <div className="flex">
+        <img src="./assets/ghost-solid.svg" className="hover:animate-bounce  w-12 h-10 cursor-pointer" alt="logo"/>
+       <div><h1 className="font-bold text-4xl font-playfair ml-4 cursor-pointer">HT</h1></div>
+       </div>
+        <ul className="font-medium   hidden lg:flex justify-between font-lato items-center gap-6">
+          <li><a className="hover:underline " href="#">Plans</a></li>
+          <li><a className="hover:underline " href="#">Find-Domain</a></li>
+          <li><a className="hover:underline " href="#">Why Hosterr</a></li>
         </ul>
         <div className="hidden lg:flex justify-center items-center font-lato gap-6 ">
         <a href="#" className="font-lato  rounded-3xl px-4 py-3 bg-white text-black hover:bg-blue-600 hover:text-white  transition-all duration-500">Sign In</a>
