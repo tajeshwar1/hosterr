@@ -5,8 +5,8 @@ const div = () => {
     <div >
       <div className="flex justify-between">
         <div className="flex">
-        <img src="./assets/ghost-solid.svg" className="hover:animate-bounce  w-12 h-10 cursor-pointer" alt="logo"/>
-       <div><h1 className="font-bold text-4xl font-playfair ml-4 cursor-pointer">HT</h1></div>
+        <img src="./assets/ghost-solid.svg" className=" w-10 h-12  hover:animate-bounce cursor-pointer" alt="logo"/>
+       <div><h1 className=" sm:text-2xl  font-bold md:text-4xl font-playfair ml-4 cursor-pointer">HT</h1></div>
        </div>
         <ul className="font-medium   hidden lg:flex justify-between font-lato items-center gap-6">
           <li><a className="hover:underline " href="#">Plans</a></li>
