@@ -10,7 +10,7 @@ const Body = () => {
         </div>
      <div className=' lg:flex-1 lg:order-1'>
       <h1 className='text-5xl font-bold font-playfair leading-tight mt-20'>Host your website in less than 5 mins*</h1>
-      <p className='font-lato text-gray-700'>With hosterr, get your website up and running in no less than 5 mins* with the most competitive pricing packages available online</p>
+      <p className='font-lato text-gray-700'>With hosterr, get your website up and running in no less than 5 mins* with 100 GB of free cloud storage if you pre-register</p>
      
       <form action="" className='flex flex-col gap-4 placeholder:text-gray-600 my-2 md:flex-row '>
         <input required className='rounded-2xl px-4 py-3' type="email" placeholder='enter email address'/>
